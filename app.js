@@ -13,6 +13,10 @@ app.get('/', (req, res) => {
 }
 )
 
+app.get('/about',(req,res)=>{
+    res.render('about.ejs');
+})
+
 app.listen(prt || process.env.PORT, () => {
     console.log(`App is running live on Port ${prt}`)
 })

@@ -54,7 +54,7 @@ ul {
 .terralogo {
     display: block;
     width: 4.8%;
-    border: 5px solid rgb(74, 14, 67);
+    border: 5px solid rgb(43, 23, 40);
     border-radius: 7px;
     border-style: outset
 }
@@ -78,6 +78,7 @@ ul {
     background-image: url('best.svg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #5c3966;
 }
 
 .fixed-bottom:hover {
@@ -85,6 +86,8 @@ ul {
     background-image: url('type2.svg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #cd7272;
+
 }
 
 h1,
@@ -320,4 +323,20 @@ h5{
     margin: auto;
     width: 50%;
     padding: 30px;
+}
+.blacker{
+    background-color: #000000;
+}
+
+.card-linka{
+    font-family: 'Poppins', sans-serif;
+font-weight: 800;
+    color: purple
+}
+.card-linka:hover{
+    transition: 0.3s;
+font-weight: 800;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+
 }
