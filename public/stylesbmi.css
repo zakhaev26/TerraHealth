@@ -121,4 +121,17 @@ form{
 }
 label{
     text-align: right;
+    color:azure;
+    font-family: 'Poppins', sans-serif;
+}
+
+span{
+    color: red;
+}
+
+.bmipic1{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding: 20px;
 }
