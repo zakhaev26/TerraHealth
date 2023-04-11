@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  },
+  "name": "terrahealth",
+  "description": "A healthcare Website which helps users to track their Health Condition and Read Health Blogs for leading a better life.",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mogulcoder26/TerraHealth.git"
+  },
+  "keywords": [
+    "Health",
+    "HealthCare",
+    "js",
+    "nodejs",
+    "expressjs",
+    "ejs"
+  ],
+  "author": "Soubhik Kumar Gon,Divya Kumar Patel,Komlaksh Sharma,Nabajyoti Kumar Naik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mogulcoder26/TerraHealth/issues"
+  },
+  "homepage": "https://github.com/mogulcoder26/TerraHealth#readme"
+}
