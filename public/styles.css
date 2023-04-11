@@ -16,10 +16,6 @@ font-family: 'Ubuntu', sans-serif; */
     margin: 0px;
 }
 
-h1{
-    color: #d0bcd1;
-}
-
 body {
     overflow-x: hidden;
     /* Hide horizontal scrollbar */
@@ -77,14 +73,251 @@ ul {
 .navbar-nav {
     margin-left: 0;
 }
-.fixed-bottom{
-    background-image:url('best.svg');
+
+.fixed-bottom {
+    background-image: url('best.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }
-.fixed-bottom:hover{
+
+.fixed-bottom:hover {
     transition: 0.3s;
-    background-image:url('type2.svg');
+    background-image: url('type2.svg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover,
+h6:hover {
+    transition: 0.3s;
+    text-decoration: underline 5px white;
+    color: rgb(187, 22, 187);
+    cursor: crosshair;
+    font-family: 'Poppins', sans-serif;
+}
+
+.video-section {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    /* 16:9 aspect ratio */
+}
+
+.responsive-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.box {
+    z-index: 30;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(0, -50%);
+    /* width: 30%; */
+    padding: 2em;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    font-size: 1em;
+    line-height: 1.5em;
+    background-color: #000000;
+    border-radius: 3rem;
+}
+
+#heading {
+    /* color: #232225; */
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.1vw;
+    margin: 13% auto;
+    font-weight: 1000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-1 {
+    transition: 0.4s;
+    z-index: 23;
+    background-color: black;
+    width: 36%;
+    /* height: 32%; */
+    overflow: hidden;
+    font-size: 10px;
+    border-radius: 8px;
+    background-image: url('best.svg');
+    background-size: cover;
+}
+
+.container-1:hover {
+    transition: 0.4s;
+    background-image: url('type2.svg');
+    background-size: cover;
+}
+
+span {
+    color: #c8cbcb;
+}
+
+h1:hover {
+    transition: 0.3s;
+    text-decoration: underline 5px white;
+    color: rgb(187, 22, 187);
+    cursor: crosshair;
+    font-family: 'Poppins', sans-serif;
+}
+
+.containera {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+.tslog {
+    text-align: center;
+    color: azure;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    color: azure;
+
+}
+
+.img-feature {
+    width: 70%;
+    border-radius: 10px;
+    margin-left: 98px;
+}
+
+.card-body {
+    transition: 0.4s;
+    background-image: url('type2.svg');
+    background-size: cover;
+}
+
+.card-body:hover {
+    transition: 0.4s;
+    background-image: url('best.svg');
+    background-size: cover;
+}
+
+.card-title {
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h6 .mb-2 {
+    color: rgb(0, 0, 0);
+}
+
+.card-text {
+    color: #000000;
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.i1{
+width: 50%;
+display: block;
+margin: auto;
+border-radius: 10px;
+padding: 30px;
+}
+
+.tag{
+    color: #ffffff;
+    text-align: center;
+}
+.txtcntr{
+    text-align: center;
+}
+.devs {
+    text-align: center;
+    color: #eee;
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    /* margin-bottom: 20px; */
+}
+
+.dev {
+    text-decoration: underline 5px purple;
+    color: #fff;
+}
+/* .clscrd{
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+
+}
+.obj{
+    font-weight: 800;
+} */
+.containerb,.containerc{
+    background-color: #000000;
+}
+
+.dkp{
+    margin-left: 25px;
+}
+.devo{
+    margin: auto;
+}
+.card-img-top{
+    height: 320.8px;
+    /* width: 230.67; */
+}
+h5{
+    font-weight: 800;
+}
+.card-text{
+    font-weight: 800;
+}
+.svglogo{
+    width: 5.333%;
+    margin: 10px;
+    border-radius: 10px;
+}
+.ts{
+    text-align: center;
+    color: #fff;
+    font-size: 3.3rem;
+    margin-bottom: 1rem;
+}
+.svglogo:hover{
+    width: 7%;
+    transition: 0.3s;
+}
+.amd{
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 30px;
 }
