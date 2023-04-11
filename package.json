@@ -2,13 +2,13 @@
   "dependencies": {
     "body-parser": "^1.20.2",
     "ejs": "^3.1.9",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
   },
   "name": "terrahealth",
   "description": "A healthcare Website which helps users to track their Health Condition and Read Health Blogs for leading a better life.",
   "version": "1.0.0",
   "main": "app.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
