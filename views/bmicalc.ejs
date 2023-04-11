@@ -1,25 +1,43 @@
-<%-include('partials/navbarbmi.ejs')-%>
+<%-include('partials/navbar.ejs')-%>
 
     <div id="bmi-a"><br><br>
         <br><br>
         <br><br>
-        <h1>Calculate Your BMI</h1>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum exercitationem, ad sint quisquam fugit illo
-        inventore repellendus excepturi, doloribus, facere aliquam doloremque eos enim quas perspiciatis. Pariatur
-        debitis eveniet dignissimos!
+        <div class="container">
+            <h1>Calculate Your BMI</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore nam maxime assumenda iste illo
+                voluptatum ab sequi, molestiae minus ratione animi veritatis repudiandae corrupti tenetur provident
+                doloribus soluta? Enim ut numquam ipsum praesentium commodi! Molestiae, at fuga. Velit, ratione
+                doloremque.</p>
+
+            <form method="post" action="/bmiresult">
+                <div class="row mb-3">
+                    <center>
+                    <label class="col-form-label">Your Name</label>
+                    
+                        <div class="col-sm-5">
+                            <input type="text" name="name" placeholder="Please enter your name here" class="form-control">
+                        </div>
+                    </center>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="row mb-3">
+                    <label class="col-sm-2 col-form-label">Weight</label>
+                    <div class="col-sm-3">
+                        <input type="number"placeholder="Please enter your weight here" name="weight" class="form-control" id="inputPassword3">
+                    </div>
+                    <label class="col-sm-2 col-form-label">Height</label>
+                    <div class="col-sm-3">
+                        <input type="number" name="height" placeholder="Please enter your height here" class="form-control" id="inputPassword3">
+                    </div>
+                </div>
+                <center>
+
+                    <button type="submit" class="btn btn-dark bn-outline-dark">Calculate!</button>
+            </form>
+            </center>
+        </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <%-include('partials/footer.ejs')-%>

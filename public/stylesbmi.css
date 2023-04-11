@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Fasthand&family=Lora:ital,wght@0,600;1,500&family=Montserrat&family=Nanum+Gothic+Coding:wght@400;700&family=Open+Sans&family=Poppins:wght@200;500&family=Sacramento&family=Source+Code+Pro:wght@600&family=Ubuntu:wght@400;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
+    background-color: #000000;
+}
+
+nav {
+    background-color: #000000;
+    width: 100%;
+    background-image: url('best.svg');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 65px;
+    opacity: 0.90;
+
+}
+
+nav:hover {
+    transition: 0.4s;
+    background-image: url('type2.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #d0bcd1;
+}
+
+nav:hover .navbar-brand {
+    transition: 0.3s;
+    color: #000000;
+}
+
+
+ul {
+    font-family: 'Poppins', sans-serif;
+}
+
+.terralogo {
+    display: block;
+    width: 4.8%;
+    border: 5px solid rgb(43, 23, 40);
+    border-radius: 7px;
+    border-style: outset
+}
+
+.navbar-brand {
+
+    position: static;
+    margin-left: 20px;
+    font-family: 'Sacramento', cursive;
+    font-size: 20px;
+    font-weight: 700;
+    color: #eee;
+
+}
+
+.navbar-nav {
+    margin-left: 0;
+}
+
+.fixed-bottom {
+    background-image: url('best.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #5c3966;
+}
+
+.fixed-bottom:hover {
+    transition: 0.3s;
+    background-image: url('type2.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cd7272;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover,
+h6:hover {
+    transition: 0.3s;
+    text-decoration: underline 5px white;
+    color: rgb(187, 22, 187);
+    cursor: crosshair;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    color: azure;
+}
+
+p{
+    color: azure;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+form{
+    color: azure;
+    font-family: 'Poppins', sans-serif;
+
+}
+label{
+    text-align: right;
+}
+.col-form-label{
+    
+}
