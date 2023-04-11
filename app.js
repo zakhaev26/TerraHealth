@@ -9,13 +9,19 @@ app.set("view engine", "ejs")
 app.use(express.static(__dirname + '/public'))
 
 app.get('/', (req, res) => {
-    res.render("homepg.ejs");
+    res.render("homepg.ejs",{stylesheet:'/styles.css'});
 }
 )
 
 app.get('/about',(req,res)=>{
-    res.render('about.ejs');
+    res.render('about.ejs',{stylesheet:'/styles.css'});
 })
+
+app.get('/bmi',(req,res)=>{
+    res.render('bmicalc.ejs',{stylesheet:'/stylesbmi.css'});
+})
+
+
 
 app.listen(prt || process.env.PORT, () => {
     console.log(`App is running live on Port ${prt}`)
