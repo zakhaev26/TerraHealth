@@ -24,6 +24,10 @@ app.get('/about', (req, res) => {
     res.render('about.ejs', { stylesheet: '/styles.css' });
 })
 
+app.get('/meters',(req,res)=>{
+    res.render('meters.ejs',{stylesheet: '/stylesbmi.css'})
+})
+
 app.get('/bmi', (req, res) => {
     res.render('bmicalc.ejs', { stylesheet: '/stylesbmi.css' });
 })
@@ -45,7 +49,7 @@ app.post('/bmicalc', (req, res) => {
     if(bmi<18.5){
         currState='Under Weight';
         suggestion=`it's important to focus on gaining weight in a healthy way.
-        
+
         Try to eat more nutrient-dense foods such as whole grains, fruits, vegetables, and lean proteins.
         Incorporate strength-training exercises into your fitness routine to build muscle mass.
         Consult with a healthcare professional or registered dietitian to develop a safe and effective plan for gaining weight.`
