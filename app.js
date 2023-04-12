@@ -39,6 +39,9 @@ console.log(ts);
 res.render('bmiresult.ejs',{stylesheet:'/stylesbmi.css',name:name,bmi:bmi,suggestion:suggestion,imgsrc:imgsrc,currState:currState})
 }) 
 
+app.get('/bmr',(req,res)=>{
+    res.render('bmr.ejs',{stylesheet:'/stylesbmi.css'})
+})
 
 
 app.post('/bmicalc', (req, res) => {

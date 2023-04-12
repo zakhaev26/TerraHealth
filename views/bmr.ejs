@@ -1,0 +1,71 @@
+<%-include('partials/navbar.ejs')-%>
+
+    <div id="bmi-a"><br><br>
+        <br><br><br>
+        <div class="container">
+            <center>
+                <h1>Calculate Your BMR</h1>
+<br>
+                <p>Your Basal Metabolic Rate (BMR) is the number of calories you burn as your body performs basic
+                    (basal)
+                    life-sustaining function. Commonly also termed as Resting Metabolic Rate (RMR), which is the
+                    calories
+                    burned if you stayed in bed all day. In either case, many utilize the basal metabolic rate formula
+                    to
+                    calculate their body’s metabolism rate.
+                    <br>
+                    <br>
+                    Your BMR defines your basal metabolism rate which makes up about 60-70% of the calories we use
+                    (“burn”
+                    or expend). This includes the energy your body uses to maintain the basic function of your living
+                    and
+                    breathing body, including:
+                    <br><br>
+                    1) The beating of our heart <br>
+                    2) Cell production<br>
+                    3) Respiration<br>
+                    4) The maintenance of body temperature<br>
+                    5) Circulation<br>
+                    6) Nutrient processing<br>
+                    <br>
+                    Your unique metabolism rate, or BMR, is influenced by a number of factors including age, weight,
+                    height,
+                    gender, environmental temperature, dieting, and exercise habits.
+                </p>
+            </center>
+            <form class="row g-3" method="post" action="/bmrDET">
+                <div class="col-md-6">
+                    <label class="form-label">Name</label>
+                    <input type="text" class="form-control" placeholder="Enter Name">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputState" class="form-label">Gender</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>Feale</option>
+                        <option>Male</option>
+                    </select>
+                </div>
+                <div class="col-6">
+                    <label for="inputAddress" class="form-label">Height</label>
+                    <input type="text" class="form-control" placeholder="Enter Height">
+                </div>
+                <div class="col-6">
+                    <label class="form-label">Weight</label>
+                    <input type="number" class="form-control" placeholder="Enter Weight">
+                </div>
+                <br><br>
+                <center>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Calculate!</button>
+                    </div>
+                </center>
+            </form>
+            </center>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <%-include('partials/footer.ejs')-%>
