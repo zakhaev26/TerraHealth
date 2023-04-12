@@ -126,7 +126,7 @@ app.get('/blog1',(req,res)=>{
 
 app.get('/:txt',(req,res)=>{
     errCode=req.status;
-    res.render('error.ejs',{err:errCode,stylesheet:'stylesbmi.css'})
+    res.render('error.ejs',{err:errCode,stylesheet:'/stylesbmi.css'})
 })
 
 app.listen(prt || process.env.PORT, () => {
