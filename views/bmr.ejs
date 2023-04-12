@@ -34,25 +34,29 @@
                 </p>
             </center>
             <form class="row g-3" method="post" action="/bmrDET">
-                <div class="col-md-6">
+                <div class="col-md-12">
                     <label class="form-label">Name</label>
-                    <input type="text" class="form-control" placeholder="Enter Name">
+                    <input type="text" name="name" class="form-control" placeholder="Enter Name">
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label">Age</label>
+                    <input type="number" name="age" class="form-control" placeholder="Enter Age">
                 </div>
                 <div class="col-md-6">
                     <label for="inputState" class="form-label">Gender</label>
-                    <select id="inputState" class="form-select">
+                    <select id="inputState" name="gender" class="form-select">
                         <option selected>Choose...</option>
-                        <option>Feale</option>
+                        <option> Female</option>
                         <option>Male</option>
                     </select>
                 </div>
                 <div class="col-6">
-                    <label for="inputAddress" class="form-label">Height</label>
-                    <input type="text" class="form-control" placeholder="Enter Height">
+                    <label for="inputAddress"  class="form-label">Height</label>
+                    <input type="text" class="form-control" name="height" placeholder="Enter Height">
                 </div>
                 <div class="col-6">
                     <label class="form-label">Weight</label>
-                    <input type="number" class="form-control" placeholder="Enter Weight">
+                    <input type="number"  name="weight" class="form-control" placeholder="Enter Weight">
                 </div>
                 <br><br>
                 <center>
