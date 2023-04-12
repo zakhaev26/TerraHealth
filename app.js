@@ -116,6 +116,14 @@ app.get('/bmrRES',(req,res)=>{
     res.render('bmrRES.ejs',{stylesheet:'/stylesbmi.css',name:nameBMR,bmr:bmr})
 })
 
+app.get('/blogs',(req,res)=>{
+    res.sendFile(__dirname+'/blog1.html');
+})
+
+app.get('/blog1',(req,res)=>{
+    res.sendFile(__dirname+'/blog1.html');
+})
+
 app.get('/:txt',(req,res)=>{
     errCode=req.status;
     res.render('error.ejs',{err:errCode,stylesheet:'stylesbmi.css'})
