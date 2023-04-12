@@ -6,13 +6,14 @@
 <div class="container">
     <center>
         <h1>BMI Result</h1>
-    </center>
+    
     
     <img class="bmipic1" src="/8551499.jpg" alt="">
-    <p>Welcome to BMI Calculator Result!<br><br>According to the input values ,<span style="color:red;"> Your BMI is :<%=bmi%></span></p>
+    <p>Welcome to BMI Calculator Result,<%=name%>!<br><br> According to the input values,Your BMI is :<span style="color:red;"> <%=bmi%> </span> & according to the meter,you are <span><%=currState%>.</span></p>
+    <br><br>
     <p><%=suggestion%></p>
-
+<br>
+<img class="bmipic1" src="<%=imgsrc%>" alt="">
 </div>
-
-
+</center>
 <%-include('partials/footer.ejs')-%>
