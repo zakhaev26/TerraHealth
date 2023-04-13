@@ -237,6 +237,7 @@ h6 .mb-2 {
 .card-text {
     color: #000000;
 }
+
 .dot {
     height: 15px;
     width: 15px;
@@ -246,21 +247,24 @@ h6 .mb-2 {
     text-align: center;
     margin-bottom: 25px;
 }
-.i1{
-width: 50%;
-display: block;
-margin: auto;
-border-radius: 10px;
-padding: 30px;
+
+.i1 {
+    width: 50%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    padding: 30px;
 }
 
-.tag{
+.tag {
     color: #ffffff;
     text-align: center;
 }
-.txtcntr{
+
+.txtcntr {
     text-align: center;
 }
+
 .devs {
     text-align: center;
     color: #eee;
@@ -274,6 +278,7 @@ padding: 30px;
     text-decoration: underline 5px purple;
     color: #fff;
 }
+
 /* .clscrd{
     font-family: 'Poppins', sans-serif;
     font-size: 70px;
@@ -283,64 +288,108 @@ padding: 30px;
 .obj{
     font-weight: 800;
 } */
-.containerb,.containerc{
+.containerb,
+.containerc {
     background-color: #000000;
 }
 
-.dkp{
+.dkp {
     margin-left: 25px;
 }
-.devo{
+
+.devo {
     margin: auto;
 }
-.card-img-top{
+
+.card-img-top {
     height: 320.8px;
     /* width: 230.67; */
 }
-h5{
+
+h5 {
     font-weight: 800;
 }
-.card-text{
+
+.card-text {
     font-weight: 800;
 }
-.svglogo{
+
+.svglogo {
     width: 5.333%;
     margin: 10px;
     border-radius: 10px;
 }
-.ts{
+
+.ts {
     text-align: center;
     color: #fff;
     font-size: 3.3rem;
     margin-bottom: 1rem;
 }
-.svglogo:hover{
+
+.svglogo:hover {
     width: 7%;
     transition: 0.3s;
 }
-.amd{
+
+.amd {
     display: block;
     margin: auto;
     width: 50%;
     padding: 30px;
 }
-.blacker{
+
+.blacker {
     background-color: #000000;
 }
 
-.card-linka{
+.card-linka {
     font-family: 'Poppins', sans-serif;
-font-weight: 800;
+    font-weight: 800;
     color: purple
 }
-.card-linka:hover{
+
+.card-linka:hover {
     transition: 0.3s;
-font-weight: 800;
+    font-weight: 800;
     color: black;
     font-family: 'Poppins', sans-serif;
 
 }
-#bmi-a{
+
+#bmi-a {
     width: 100%;
     background-color: #000000;
+}
+
+.container-gpt {
+    background-color: #000000;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.container-gpt h1 {
+    color: aliceblue;
+}
+
+::placeholder {
+    color: #ffffff;
+    margin: auto;
+}
+
+label {
+    color: azure;
+}
+
+.gpt{
+    margin:auto;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+.gpt-prompt{
+    color: aliceblue;
 }

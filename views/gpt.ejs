@@ -1,0 +1,26 @@
+<%-include("partials/navbar.ejs")-%>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container-gpt">
+        <center>
+            <h1>Ask your health related doubts,and get appropriate answers!</h1>
+        </center>
+        <form method="post" action="/gpt">
+            <div class="row mb-3">
+                <center>
+                    <label class="col-form-label">Ask Your Query</label>
+                    <div class="col-sm-12">
+                        <input type="text " name="prompt" placeholder="Query..." class="form-control">
+                    </div>
+            </div>
+            <center>
+                <button type="submit" class="btn btn-dark bn-outline-dark gpt">Calculate!</button>
+            </center>
+        </form>
+        </center>
+    </div>
+
+    <%-include("partials/footer.ejs")-%>
