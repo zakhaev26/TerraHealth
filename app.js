@@ -80,7 +80,7 @@ app.post('/gpt', async (req, res) => {
 })
 
 app.get('/gptans', (req, res) => {
-    res.render('gptans.ejs', { stylesheet: '/styles.css',xyz:gptANS});
+    res.render('gptans.ejs', { stylesheet: '/styles.css',xyz:gptANS,q:promptUSER});
 // res.end('ok');
 })
 
