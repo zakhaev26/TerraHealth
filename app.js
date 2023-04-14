@@ -67,21 +67,21 @@ app.post('/gpt', async (req, res) => {
             'X-RapidAPI-Key': '95992756cbmshdd903a59b07377ap1b3e73jsn36c4b8682a30',
             'X-RapidAPI-Host': 'openai80.p.rapidapi.com'
         },
-        data: {"model":"gpt-3.5-turbo","messages":[{"role":"user","content":promptUSER}]}
+        data: { "model": "gpt-3.5-turbo", "messages": [{ "role": "user", "content": promptUSER }] }
     };
 
-    await axios.request(options).then((response)=> {
+    await axios.request(options).then((response) => {
         console.log(response.data.choices[0].message.content);
-        gptANS= response.data.choices[0].message.content;
-    }).catch((error)=> {
+        gptANS = response.data.choices[0].message.content;
+    }).catch((error) => {
         console.error(error);
     });
     res.redirect('/gptans');
 })
 
 app.get('/gptans', (req, res) => {
-    res.render('gptans.ejs', { stylesheet: '/styles.css',xyz:gptANS,q:promptUSER});
-// res.end('ok');
+    res.render('gptans.ejs', { stylesheet: '/styles.css', xyz: gptANS, q: promptUSER });
+    // res.end('ok');
 })
 
 app.post('/bmicalc', (req, res) => {
