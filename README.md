@@ -11,13 +11,13 @@
 
 # In-App Images:
 
-![failed to load img 0x9897325chjrhxjhjshxjra8872](./public/appview1.png)
-![failed to load img 0x9897325chjrhxjhjshxjra8872](./public/appview2.png)
-![failed to load img 0x9897325chjrhxjhjshxjra8872](./public/appview3.png)
-![failed to load img 0x9897325chjrhxjhjshxjra8872](./public/appview4.png)
-![failed to load img 0x9897325chjrhxjhjshxjra8872](./public/appview5.png)
-![failed to load img 0x9897325chjrhxjhjshxjra8872](./public/appview6.png)
-![failed to load img 0x9897325chjrhxjhjshxjra8872](./public/appview7.png)
-![failed to load img 0x9897325chjrhxjhjshxjra8872](./public/appview8.png)
-![failed to load img 0x9897325chjrhxjhjshxjra8872](./public/appview9.png) 
+![failed to load img 0x9897325chjrhxjhjshxjra8872](./public/appview1.PNG)
+![failed to load img 0x9897325chjrhxjhjshxjra8872](./public/appview2.PNG)
+![failed to load img 0x9897325chjrhxjhjshxjra8872](./public/appview3.PNG)
+![failed to load img 0x9897325chjrhxjhjshxjra8872](./public/appview4.PNG)
+![failed to load img 0x9897325chjrhxjhjshxjra8872](./public/appview5.PNG)
+![failed to load img 0x9897325chjrhxjhjshxjra8872](./public/appview6.PNG)
+![failed to load img 0x9897325chjrhxjhjshxjra8872](./public/appview7.PNG)
+![failed to load img 0x9897325chjrhxjhjshxjra8872](./public/appview8.PNG)
+![failed to load img 0x9897325chjrhxjhjshxjra8872](./public/appview9.PNG) 
 
