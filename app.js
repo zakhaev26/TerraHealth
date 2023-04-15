@@ -168,15 +168,15 @@ app.get('/blog2',(req,res)=>{
 })
 
 app.get('/blog3',(req,res)=>{
-    res.render("blog2.ejs",{stylesheet:'/blog.css'});
+    res.render("blog3.ejs",{stylesheet:'/blog.css'});
 })
 
 app.get('/blog4',(req,res)=>{
-    res.render("blog2.ejs",{stylesheet:'/blog.css'});
+    res.render("blog4.ejs",{stylesheet:'/blog.css'});
 })
 
 app.get('/blog5',(req,res)=>{
-    res.render("blog2.ejs",{stylesheet:'/blog.css'});
+    res.render("blog5.ejs",{stylesheet:'/blog.css'});
 })
 
 app.get('/:txt', (req, res) => {
