@@ -156,7 +156,7 @@ app.get('/bmrRES', (req, res) => {
 })
 
 app.get('/blogs', (req, res) => {
-    res.sendFile(__dirname + '/blog1.html');
+    res.render("blog1.ejs",{stylesheet:'/blog.css'});
 })
 
 app.get('/blog1', (req, res) => {
