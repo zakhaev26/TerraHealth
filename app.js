@@ -160,12 +160,28 @@ app.get('/blogs', (req, res) => {
 })
 
 app.get('/blog1', (req, res) => {
-    res.sendFile(__dirname + '/blog1.html');
+    res.render("blog1.ejs",{stylesheet:'/blog.css'});
+})
+
+app.get('/blog2',(req,res)=>{
+    res.render("blog2.ejs",{stylesheet:'/blog.css'});
+})
+
+app.get('/blog3',(req,res)=>{
+    res.render("blog2.ejs",{stylesheet:'/blog.css'});
+})
+
+app.get('/blog4',(req,res)=>{
+    res.render("blog2.ejs",{stylesheet:'/blog.css'});
+})
+
+app.get('/blog5',(req,res)=>{
+    res.render("blog2.ejs",{stylesheet:'/blog.css'});
 })
 
 app.get('/:txt', (req, res) => {
     errCode = req.status;
-    res.render('error.ejs', { err: errCode, stylesheet: '/stylesbmi.css' })
+    res.render('error.ejs', { err: errCode, stylesheet: '/styles.css' })
 })
 
 app.listen(prt || process.env.PORT, () => {
