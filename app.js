@@ -1,5 +1,6 @@
 const axios = require("axios");
-const bodyParser = require('body-parser')
+const bodyParser = require('body-parser');
+const { Console } = require("console");
 const express = require('express');
 const { getPackedSettings } = require("http2");
 const { builtinModules } = require('module')
@@ -88,6 +89,8 @@ app.post('/bmicalc', (req, res) => {
     const weightBMI = Number(req.body.weight);
     const heightBMI = Number(req.body.height);
     nameBMI = req.body.name;
+    console.log(weightBMI);
+    console.log(heightBMI);
     bmi = (weightBMI) / (heightBMI * heightBMI);
     if (bmi < 18.5) {
         currStateBMI = 'Under Weight';
