@@ -4,6 +4,7 @@
 
 ### The website's real-life use case is significant, as it provides a range of resources and tools to help users take control of their health. The informative blogs can help users stay up-to-date on the latest health trends and research which will be updated in future/even be changed so as to provide poeple the freedom to publish their own blogs, while the fitness meters can help them track their progress and make informed decisions about their fitness goals. The chatbot, powered by GPT-3.5, can be especially beneficial for users who have specific health-related questions or concerns that they want to address.
 
-### We used OpenAI api for answering the queries of users.
-### Computed BMI and BMR meters value in the backend using Node and Express.
-### Blogs written by content team,gathered by popular resources over net and own curations.
+
+- We used OpenAI api for answering the queries of users.
+- Computed BMI and BMR meters value in the backend using Node and Express.
+- Blogs written by content team,gathered by popular resources over net and own curations.
