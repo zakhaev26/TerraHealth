@@ -19,5 +19,5 @@
 ![failed to load img 0x9897325chjrhxjhjshxjra8872](./public/appview6.PNG)
 ![failed to load img 0x9897325chjrhxjhjshxjra8872](./public/appview7.PNG)
 ![failed to load img 0x9897325chjrhxjhjshxjra8872](./public/appview8.PNG)
-![failed to load img 0x9897325chjrhxjhjshxjra8872](./public/appview9.PNG) 
+![failed to load img 0x9897325chjrhxjhjshxjra8872](./public/appview9.png) 
 
