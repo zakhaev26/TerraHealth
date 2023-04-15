@@ -8,3 +8,16 @@
 - We used OpenAI api for answering the queries of users.
 - Computed BMI and BMR meters value in the backend using Node and Express.
 - Blogs written by content team,gathered by popular resources over net and own curations.
+
+# In-App Images:
+
+![](./public/appview1.png)
+![](./public/appview2.png)
+![](./public/appview3.png)
+![](./public/appview4.png)
+![](./public/appview5.png)
+![](./public/appview6.png)
+![](./public/appview7.png)
+![](./public/appview8.png)
+![](./public/appview9.png)
+
