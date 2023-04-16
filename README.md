@@ -8,11 +8,13 @@ _Healthcare is one of the most crucial aspects of our lives, and having access t
 
 _The website's real-life use case is significant, as it provides a range of resources and tools to help users take control of their health. The informative blogs can help users stay up-to-date on the latest health trends and research which will be updated in future/even be changed so as to provide poeple the freedom to publish their own blogs, while the fitness meters can help them track their progress and make informed decisions about their fitness goals. The chatbot, powered by GPT-3.5, can be especially beneficial for users who have specific health-related questions or concerns that they want to address._
 
+- In order to run the app on your local machine,Use ``` npm i ``` to install the dependencies in app.js
+- Run the script ```nodemon app.js``` on terminal and browse to ```https://localhost:1080``` to run the app.
 
 - We used OpenAI api for answering the queries of users.
 - Computed BMI and BMR meters value in the backend using Node and Express.
 - Blogs written by content team,gathered by popular resources over net and own curations.
--Web app also available in android app version.
+- Web app also available in android app version.
 
 # In-App Images:
 
