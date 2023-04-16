@@ -12,6 +12,7 @@ _The website's real-life use case is significant, as it provides a range of reso
 - We used OpenAI api for answering the queries of users.
 - Computed BMI and BMR meters value in the backend using Node and Express.
 - Blogs written by content team,gathered by popular resources over net and own curations.
+-Web app also available in android app version.
 
 # In-App Images:
 
