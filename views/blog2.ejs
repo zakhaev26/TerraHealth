@@ -31,7 +31,7 @@
             <br><!--NO CHANGES TILL HERE-->
             <div class="contain">
                 
-                <img class="blog-2-img-1" src="MH1.jpg" alt="alt"></center><br>
+                <img class="blog-2-img-1" src="MH1.jpg" alt="alt" style="--c:rgb(13, 194, 28);"></center><br>
                 
                 <h3><ins>WHAT IS MENTAL HEALTH ?</ins></h3><br>
                 <p>Mental health refers to a person's overall psychological well-being. 
@@ -68,13 +68,38 @@
                 </p>
                 <br>
                 
-                    <img  class="blog-2-img-2" src="MH3.jpg" alt="">
-                    <img class="blog-2-img-3" src="MH6.jpg" align="right" height="400">
+                    <img  class="blog-2-img-2" src="MH3.jpg" alt="" style="--c:rgb(4, 55, 88);">
+                    <img class="blog-2-img-3" src="MH6.jpg" align="right" height="400" style="--c:rgb(34, 34, 33);">
                 
                 <style>
-                    img{
+                    img {
+                         --g: 4px;     /* the gap */
+                         --b: 12px;    /* border thickness*/
+                         --c: ; /* the color */
+                         
+  
+  
+  padding: calc(var(--g) + var(--b));
+  --_c: #0000 0 25%, var(--c) 0 50%;
+  --_g1: repeating-linear-gradient(90deg ,var(--_c)) repeat-x;
+  --_g2: repeating-linear-gradient(180deg,var(--_c)) repeat-y;
+  background:
+    var(--_g1) var(--_p, 25%) 0   ,var(--_g2) 0    var(--_p,125%),
+    var(--_g1) var(--_p,125%) 100%,var(--_g2) 100% var(--_p, 25%);
+  background-size: 200% var(--b),var(--b) 200%;
+  cursor: pointer;
+  filter: grayscale(50%);
+  transition: .3s;
+}
+img:hover {
+  --_p: 75%;
+  filter: grayscale(0%);
+  
+}
+                img{
                         border-radius:14px 14px;
-                    }
+                }
+
                 </style>
                 <br>
                 <br>
@@ -124,7 +149,7 @@
             </p>
             <br>
             <center>
-            <img class="blog-2-img-4" src="MH5.jpg" alt="" height ="450"></center><br>
+            <img class="blog-2-img-4" src="MH5.jpg" alt="" height ="450" style="--c:rgb(221, 223, 219);"></center><br>
 
                 
             </div>
