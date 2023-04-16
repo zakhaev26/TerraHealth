@@ -33,8 +33,37 @@
 
     <br>
     <div class="contain"><!--Content-->
-        
-       <img class="blog-1-img-1" src="img-1.jpg" alt="alt"></center><br>
+        <style>
+            img {
+                 --g: 4px;     /* the gap */
+                 --b: 12px;    /* border thickness*/
+                 --c: ; /* the color */
+                 
+
+
+padding: calc(var(--g) + var(--b));
+--_c: #0000 0 25%, var(--c) 0 50%;
+--_g1: repeating-linear-gradient(90deg ,var(--_c)) repeat-x;
+--_g2: repeating-linear-gradient(180deg,var(--_c)) repeat-y;
+background:
+var(--_g1) var(--_p, 25%) 0   ,var(--_g2) 0    var(--_p,125%),
+var(--_g1) var(--_p,125%) 100%,var(--_g2) 100% var(--_p, 25%);
+background-size: 200% var(--b),var(--b) 200%;
+cursor: pointer;
+filter: grayscale(50%);
+transition: .3s;
+}
+img:hover {
+--_p: 75%;
+filter: grayscale(0%);
+
+}
+        img{
+                border-radius:14px 14px;
+        }
+
+        </style>
+       <img class="blog-1-img-1" src="img-1.jpg" alt="alt" style="--c:rgb(201, 118, 9);"></center><br>
        <h3>About running and jogging</h3> <br>
        <p>Jogging or running is a popular form of physical activity. About one in 5 Australians try running (or
            jogging) at some stage in their life. Running is an appealing exercise because it doesn't cost a lot to take
@@ -112,7 +141,7 @@
        </ul>
        <br>
        <center>
-           <img  class="blog-1-img-2" src="img-2.jpg" alt="">
+           <img  class="blog-1-img-2" src="img-2.jpg" alt="" style="--c:rgb(13, 194, 28);">
        </center>
        
        <h3>Running and jogging for beginners</h3>
