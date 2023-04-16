@@ -2,7 +2,7 @@
 
 GFG Hackathon project-Healthcare
 
-![Failed to laod image at 0x3kqer23rr9feedkka](./public/terralogo.svg)
+![Failed to load image at 0x3kqer23rr9feedkka](./public/terralogo.svg)
 
 _Healthcare is one of the most crucial aspects of our lives, and having access to reliable information and resources can significantly impact our well-being. With the advent of the internet, accessing health-related information has become more accessible. However, the vast amount of information available online can be overwhelming and confusing for users. To address this issue, We developed a healthcare website that provides a range of features to promote health awareness and help users take control of their fitness.Our vision is to create a comprehensive health care website that empowers users to take control of their well-being. Our idea is to provide a platform where users can get answers to their health-related queries, access informative blogs for health awareness, and use meters for fitness calculations. We believe that by offering these features, we can promote healthier lifestyles and help people achieve their health goals._
 
