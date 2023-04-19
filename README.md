@@ -11,7 +11,7 @@ _The website's real-life use case is significant, as it provides a range of reso
 - In order to run the app on your local machine,Use ``` npm i ``` to install the dependencies in app.js
 - Run the script ```nodemon app.js``` on terminal and browse to ```https://localhost:1080``` to run the app.
 
-- We used OpenAI api for answering the queries of users.
+- We used OpenAI api for answering the queries of users.[_We're using the free tokens available with the api.It gets exhausted with overuse_]
 - Computed BMI and BMR meters value in the backend using Node and Express.
 - Blogs written by content team,gathered by popular resources over net and own curations.
 - Web app also available in android app version.
