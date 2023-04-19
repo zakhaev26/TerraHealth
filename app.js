@@ -65,7 +65,7 @@ app.post('/gpt', async (req, res) => {
         url: 'https://openai80.p.rapidapi.com/chat/completions',
         headers: {
             'content-type': 'application/json',
-            'X-RapidAPI-Key': '95992756cbmshdd903a59b07377ap1b3e73jsn36c4b8682a30',
+            'X-RapidAPI-Key': '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',//update Key
             'X-RapidAPI-Host': 'openai80.p.rapidapi.com'
         },
         data: { "model": "gpt-3.5-turbo", "messages": [{ "role": "user", "content": promptUSER }] }
