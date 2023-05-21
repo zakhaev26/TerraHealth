@@ -6,6 +6,7 @@ const { getPackedSettings } = require("http2");
 const { builtinModules } = require('module')
 const { cursorTo } = require('readline')
 const app = express()
+require('dotenv').config()
 const prt = 1080
 app.use(bodyParser.urlencoded({ extended: true }))
 app.setMaxListeners(30);
@@ -65,7 +66,7 @@ app.post('/gpt', async (req, res) => {
         url: 'https://openai80.p.rapidapi.com/chat/completions',
         headers: {
             'content-type': 'application/json',
-            'X-RapidAPI-Key': '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',//update Key
+            'X-RapidAPI-Key': process.env.OPENAI_API_KEY,//update Key
             'X-RapidAPI-Host': 'openai80.p.rapidapi.com'
         },
         data: { "model": "gpt-3.5-turbo", "messages": [{ "role": "user", "content": promptUSER }] }
