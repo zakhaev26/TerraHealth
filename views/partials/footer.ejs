@@ -5,6 +5,33 @@
         <h5>Made by Team Terra-Vision!</h5>
     </div>
 </center>
+
+<script>
+ let mouseCursor=document.querySelector('.cursor')
+
+ let cursor=(event)=>{
+    // console.log(event)
+    mouseCursor.style.top=event.pageY + 'px'
+    mouseCursor.style.left=event.pageX + 'px'
+}
+window.addEventListener('mousemove',cursor)
+
+let navlinks=document.querySelectorAll('.nav-item');
+
+navlinks.forEach(link=>{
+    link.addEventListener('mouseleave',()=>{
+        mouseCursor.classList.remove('link-grow');
+        link.classList.remove('hovered-link');
+    })
+
+    link.addEventListener('mouseover',()=>{
+        mouseCursor.classList.add('link-grow');
+        link.classList.add('hovered-link');
+        
+    })
+})
+
+</script>
 </body>
 
 </html>
